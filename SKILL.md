@@ -115,3 +115,11 @@ For further research ideas, prefer concrete formulations:
 - "把 E 的层次化估计策略扩展到 F 的近场/XL-MIMO 场景，并比较复杂度与导频开销".
 
 Avoid vague ideas such as "combine deep learning with the method" unless the source papers justify that direction.
+
+## Self-Evolution Mechanism
+
+After each execution of this Skill:
+
+1. Evaluate whether the output achieved the intended goal: **pass / fail**.
+2. If it fails, reflect on the cause of failure and append a “failure case + improvement suggestion” to `diary/YYYY-MM-DD.md`.
+3. If a certain improvement suggestion is repeatedly mentioned in the most recent three executions, refine it into a formal rule and submit a PR to modify this `SKILL.md`.
